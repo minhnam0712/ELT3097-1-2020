@@ -5,16 +5,16 @@
 
     <!-- Set màu nền-->
     <solid
-        android:color="#79CC7D" >
+        android:color="#64E36B" >
     </solid>
 
-    <!-- đặt thuộc tính màu và độ rộng của đường viền -->
+    <!-- đặt thuộc tính màu và độ rộng của đường viền
     <stroke
         android:width="7dp"
         android:dashGap="10dp"
         android:dashWidth="25dp"
         android:color="#FF9800" >
-    </stroke>
+    </stroke> -->
 
     <!-- các thuộc tính căn chỉnh-->
     <padding
@@ -24,9 +24,9 @@
         android:bottom="10dp" >
     </padding>
 
-    <!-- và đây là bán kính đường tròn ở 4 góc -->
+    <!-- và đây là bán kính đường tròn ở 4 góc
     <corners
         android:radius="20dp" >
-    </corners>
+    </corners> -->
 
 </shape>

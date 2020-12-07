@@ -10,7 +10,6 @@
         android:id="@+id/ChonBanDich"
         android:layout_width="297dp"
         android:layout_height="53dp"
-        android:fontFamily="sans-serif"
         android:text="Chọn bản dịch đúng"
         android:textAllCaps="false"
         android:textColor="@android:color/background_dark"
@@ -26,7 +25,7 @@
         android:id="@+id/textView"
         android:layout_width="223dp"
         android:layout_height="31dp"
-        android:text="Tôi thích cà phê"
+        android:text="Thu rất đẹp trai."
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +41,7 @@
         android:layout_height="64dp"
         android:autoText="false"
         android:background="@drawable/duongvien_goctron"
-        android:text="I love rice"
+        android:text="Thu are handsome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
@@ -51,29 +50,29 @@
         app:layout_constraintVertical_bias="0.43" />
 
     <Button
+        android:id="@+id/button3"
+        android:layout_width="370dp"
+        android:layout_height="64dp"
+        android:background="@drawable/duongvien_goctron"
+        android:text="Thu is very handsome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <Button
         android:id="@+id/button4"
         android:layout_width="370dp"
         android:layout_height="64dp"
         android:background="@drawable/duongvien_goctron"
-        android:text="I like coffee"
+        android:text="Thu is very beatyfull"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.71000004" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="370dp"
-        android:layout_height="64dp"
-        android:background="@drawable/duongvien_goctron"
-        android:text="I am fond of tea"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
 
     <Button
         android:id="@+id/buttonKiemtra"
@@ -107,8 +106,8 @@
 
     <ImageButton
         android:id="@+id/exit_imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
         android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -133,8 +132,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="413dp"
-        android:layout_height="149dp"
+        android:layout_width="411dp"
+        android:layout_height="146dp"
         android:background="@drawable/dung"
         android:fontFamily="serif"
         android:paddingLeft="20dp"
@@ -156,10 +155,9 @@
         android:layout_width="match_parent"
         android:layout_height="182dp"
         android:background="@drawable/sai"
-        android:fontFamily="sans-serif"
         android:paddingLeft="20dp"
         android:paddingTop="25dp"
-        android:text="Đáp án đúng:\n I like coffee"
+        android:text="Đáp án đúng: 'Thu is very handsome'"
         android:textColor="#F61100"
         android:textSize="25sp"
         android:visibility="invisible"
