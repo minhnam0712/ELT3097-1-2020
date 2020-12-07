@@ -7,7 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity3 extends AppCompatActivity {
+
     Button btnStart;
 
     @Override
@@ -19,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent nextScreen = new Intent(MainActivity2.this, MainActivity3.class);
+                Intent nextScreen = new Intent(MainActivity3.this, MainActivity4.class);
 
                 startActivity(nextScreen);
             }
